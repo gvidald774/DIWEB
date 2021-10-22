@@ -1,0 +1,28 @@
+body {
+    background-color: lightblue;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 350%;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+h2 {
+    background-color: blue;
+}
+
+h3 {
+    color: white;
+    background-color: blue;
+}
+
+pre {
+    font-family: monospace;
+}
+
+address {
+    font-family: serif;
+}
