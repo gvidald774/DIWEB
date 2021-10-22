@@ -29,10 +29,21 @@ h2 {
 p {
     text-indent: 10%;
     font-size: 1.25em;
+    text-align: justify;
 }
 
 img {
     float: left;
-    width: 150px;
-    margin: 1%;
+    width: 135px;
+    margin: 5px;
+}
+
+span.fecha {
+    font-style: italic;
+    color: red;
+}
+
+span.codigo {
+    font-weight: bold;
+    background-color: white;
 }
