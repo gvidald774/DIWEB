@@ -17,7 +17,7 @@ h2 {
     background-color: #777;
     margin-left: 7.5%;
     margin-right: 7.5%;
-    padding: 5px 5px 5px;
+    padding: 6px;
     color: white;
 }
 
@@ -38,12 +38,10 @@ img {
     margin: 5px;
 }
 
-span.fecha {
-    font-style: italic;
+em {
     color: red;
 }
 
-span.codigo {
-    font-weight: bold;
+strong {
     background-color: white;
 }
