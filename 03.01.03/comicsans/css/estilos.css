@@ -1,0 +1,46 @@
+body {
+    background-color: lightblue;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+h1 {
+    font-size: 400%;
+    text-align: right;
+    line-height: 2;
+}
+
+h2 {
+    font-family: monospace;
+    font-size: 500%;
+    font-variant: small-caps;
+}
+
+p {
+    line-height: 1.8;
+    font-size: 130%;
+    text-indent: 15%;
+}
+
+strong {
+    color: orange;
+}
+
+em {
+    background-color: white;
+    color: green;
+}
+
+span {
+    color: red;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+time {
+    color: orange;
+}
+
+address {
+    font-size: 100%;
+    text-align: center;
+}
