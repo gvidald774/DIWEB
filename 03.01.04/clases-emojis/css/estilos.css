@@ -1,10 +1,10 @@
 body {
     font-family: sans-serif;
-    background-color: lightpink;
+    background-color: #FFEACC;
 }
 
 h1 {
-    color: brown;
+    color: #995900;
     text-transform: uppercase;
     font-size: 250%;
 }
@@ -26,5 +26,5 @@ span.par {
 }
 
 span.impar {
-    background-color: pink;
+    background-color: #FFCCEA;
 }
