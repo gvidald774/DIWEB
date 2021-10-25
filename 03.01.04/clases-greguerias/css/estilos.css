@@ -1,0 +1,35 @@
+body {
+    background-color: #2d8652;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 360%;
+    text-transform: capitalize;
+}
+
+p {
+    font-size: 200%;
+}
+
+p.infancia {
+    font-family: serif;
+    color: white;
+    font-style: italic;
+}
+
+p.animales {
+    font-family: sans-serif;
+    color: wheat;
+}
+
+p.literatura {
+    font-family: monospace;
+    color: orange;
+    font-size: 250%;
+}
+
+p.numeros {
+    font-family: cursive;
+    color: crimson;
+}
