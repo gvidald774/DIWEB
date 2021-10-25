@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+    background-color: lightpink;
+}
+
+h1 {
+    color: brown;
+    text-transform: uppercase;
+    font-size: 250%;
+}
+
+p {
+    font-size: 250%;
+}
+
+p.intro {
+    color: orange;
+}
+
+summary {
+    font-size: 500%;
+}
+
+span.par {
+    background-color: white;
+}
+
+span.impar {
+    background-color: pink;
+}
