@@ -1,29 +1,29 @@
 body {
-    background-color: lightblue;
+    background-color: #c6d9ee;
     font-family: sans-serif;
     text-align: justify;
 }
 
 h1 {
-    font-size: 400%;
+    font-size: 380%;
     text-align: right;
     line-height: 2;
 }
 
 h2 {
     font-family: monospace;
-    font-size: 500%;
+    font-size: 450%;
     font-variant: small-caps;
 }
 
 p {
-    line-height: 1.8;
-    font-size: 130%;
+    line-height: 2;
+    font-size: 120%;
     text-indent: 15%;
 }
 
 strong {
-    color: orange;
+    color: chocolate;
 }
 
 em {
@@ -37,7 +37,7 @@ span {
 }
 
 time {
-    color: orange;
+    color: darkorange;
 }
 
 address {
