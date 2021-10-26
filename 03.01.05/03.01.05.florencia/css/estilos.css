@@ -1,0 +1,45 @@
+body {
+    background-color: lightcyan;
+    font-family: sans-serif;
+    font-size: 200%;
+    text-align: justify;
+}
+
+h1 {
+    color: navy;
+    font-weight: 900;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 60px;
+}
+
+h2 {
+    clear: both;
+    background-color: olive;
+    color: white;
+}
+
+p.centrado {
+    text-align: center;
+}
+
+img.izquierda {
+    float: left;
+    margin-right: 5%;
+    margin-bottom. 5%;
+}
+
+img.derecha {
+    float: right;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+strong {
+    font-style: italic;
+}
+
+address {
+    clear: both;
+    font-size: 75%;
+}
