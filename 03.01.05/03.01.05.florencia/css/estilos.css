@@ -1,5 +1,5 @@
 body {
-    background-color: lightcyan;
+    background-color: #C4C6B9;
     font-family: sans-serif;
     font-size: 200%;
     text-align: justify;
@@ -15,7 +15,7 @@ h1 {
 
 h2 {
     clear: both;
-    background-color: olive;
+    background-color: #5D6336;
     color: white;
 }
 
