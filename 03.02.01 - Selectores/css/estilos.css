@@ -1,0 +1,64 @@
+body {
+    font-family: 'Open Sans';
+    background-color: lightgray;
+}
+
+header h1 {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+li {
+    margin: 0 10% 10% 0;
+    padding: 10px;
+    float: left;
+    width: 20%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:before {
+    content: "";
+    display: block;
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin: 0 6px 0 0;
+}
+
+a[rel='next']:before {
+    background: url("../iconos/boton-circular-plus.png") no-repeat;
+    background-size: 20px 20px;
+}
+
+a[rel='tag']:before {
+    background: url("../iconos/shopping-cart.png") no-repeat;
+    background-size: 20px 20px;
+}
+
+a[rel='bookmark']:before {
+    background: url("../iconos/star.png") no-repeat;
+    background-size: 20px 20px;
+
+}
+
+a[rel='help']:before {
+    background: url("../iconos/pdf-file.png") no-repeat;
+    background-size: 20px 20px;
+}
+
+a[rel='search']:before {
+    background: url("../iconos/search.png") no-repeat;
+    background-size: 20px 20px;
+}
+
+a[rel='nofollow']:before {
+    background: url("../iconos/shield.png") no-repeat;
+    background-size: 20px 20px;
+}
