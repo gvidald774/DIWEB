@@ -9,13 +9,19 @@ header h1 {
 
 nav ul {
     list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+ul li:nth-child(6)
+{
+    display: none;
 }
 
 li {
     margin: 0 10% 10% 0;
     padding: 10px;
     float: left;
-    width: 20%;
 }
 
 a {
