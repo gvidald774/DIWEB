@@ -1,0 +1,37 @@
+* {
+    font-family: 'Open Sans';
+}
+
+h1,h2 {
+    font-family: sans-serif;
+    font-weight: 800;
+}
+
+h2::first-letter {
+    color: red;
+}
+
+article h2:first-of-type {
+    color: crimson;
+}
+
+article:nth-child(2) {
+    color: pink;
+}
+
+ul {
+    list-style: none;
+    line-height: 150%;
+}
+
+ul li:nth-of-type(2n-1):hover::before {
+    content: " Somos elementos impares ";
+}
+
+ul li:nth-of-type(2n):hover::after {
+    content: " Somos elementos pares ";
+}
+
+ul li:nth-child(3) {
+    color: green;
+}
