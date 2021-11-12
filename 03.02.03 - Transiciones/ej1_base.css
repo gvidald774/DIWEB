@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .container{
     position: relative;
 }
@@ -12,4 +18,114 @@
   float: left;
   font-size: 18px;
   font-family: Arial;
+}
+
+.caja1{
+  background-color:#C0392B;
+  transition: background-color 1s;
+}
+
+.caja1:hover{
+  transition: background-color 1s;
+  background-color:#25D;
+}
+
+.caja2{
+  background-color: #9B59B6;
+  font-size: 100%;
+  transition: font-size 1s;
+}
+
+.caja2:hover{
+  transition: font-size 1s;
+  font-size: 2em;
+}
+
+.caja3{
+  background-color: #2980B9;
+  color:white;
+  transition: color 1s;
+}
+
+.caja3:hover{
+  color:black;
+  transition: color 1s;
+}
+
+.caja4{
+  background-color: #3498DB;
+  line-height: 180px;
+  transition: line-height 1s;
+}
+
+.caja4:hover{
+  line-height:220px;
+  transition: line-height 1s;
+}
+
+.caja5{
+  background-color: #17A589;
+  border-radius: 0;
+  transition: border-radius 1s;
+}
+
+.caja5:hover{
+  border-radius: 100px;
+  transition: border-radius 1s;
+}
+
+.caja6{
+  background-color: #F1C40F;
+  box-shadow: 10px 10px 5px black;
+  transition: box-shadow 1s;
+}
+
+.caja6:hover{
+  box-shadow: -5px -5px 15px blue;
+  transition: box-shadow 1s;
+}
+
+.caja7{
+  background-color: #E67E22;
+  opacity: 120%;
+  transition: opacity 1s;
+}
+
+.caja7:hover{
+  opacity: 0%;
+  transition: opacity 1s;
+}
+
+.caja8{
+  background-color: #95A5A6;
+  border: dashed blue 0px;
+  transition: border 1s;
+}
+
+.caja8:hover{
+  border: dashed blue 10px;
+  transition: border 1s;
+}
+
+.caja9{
+  background-color: #2C3E50;
+  margin: 15px;
+  transition: margin 1s;
+}
+
+.caja9:hover{
+  margin: 0;
+  transition: margin 1s;
+}
+
+.caja10{
+  background-color: black;
+  padding: 0;
+  transition: padding 1s;
+}
+
+.caja10:hover
+{
+  padding: 20%;
+  transition: padding 1s;
 }
