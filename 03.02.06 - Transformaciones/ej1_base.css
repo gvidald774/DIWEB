@@ -13,3 +13,47 @@
     font-size: 18px;
     font-family: Arial;
   }
+
+.caja1 {
+  transform: scale(0.8);
+}
+
+.caja2 {
+  transform: rotate(0.7turn);
+}
+
+.caja3 {
+  transform: skew(30deg, 20deg);
+}
+
+.caja4 {
+  transform: skewX(30deg);
+}
+
+.caja5 {
+  transform: skewY(30deg);
+}
+
+.caja6 {
+  transform: translate(40px, 30px);
+}
+
+.caja7 {
+  transform: translateX(10px);
+}
+
+.caja8 {
+  transform: translateY(10px);
+}
+
+.caja9 {
+  transform: perspective(50cm) rotate(0.1turn)
+}
+
+.caja10 {
+  transform: perspective(0) rotate(0.1turn)
+}
+
+.caja11 {
+  transform: matrix(1,-0.2,0,1,0,0);
+}
