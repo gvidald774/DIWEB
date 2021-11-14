@@ -26,7 +26,6 @@
 }
 
 .caja1:hover{
-  transition: background-color 1s;
   background-color:#25D;
 }
 
@@ -37,7 +36,6 @@
 }
 
 .caja2:hover{
-  transition: font-size 1s;
   font-size: 2em;
 }
 
@@ -49,7 +47,6 @@
 
 .caja3:hover{
   color:black;
-  transition: color 1s;
 }
 
 .caja4{
@@ -60,7 +57,6 @@
 
 .caja4:hover{
   line-height:220px;
-  transition: line-height 1s;
 }
 
 .caja5{
@@ -71,7 +67,6 @@
 
 .caja5:hover{
   border-radius: 100px;
-  transition: border-radius 1s;
 }
 
 .caja6{
@@ -82,7 +77,6 @@
 
 .caja6:hover{
   box-shadow: -5px -5px 15px blue;
-  transition: box-shadow 1s;
 }
 
 .caja7{
@@ -93,7 +87,6 @@
 
 .caja7:hover{
   opacity: 0%;
-  transition: opacity 1s;
 }
 
 .caja8{
@@ -104,7 +97,6 @@
 
 .caja8:hover{
   border: dashed blue 10px;
-  transition: border 1s;
 }
 
 .caja9{
@@ -115,7 +107,6 @@
 
 .caja9:hover{
   margin: 0;
-  transition: margin 1s;
 }
 
 .caja10{
@@ -127,5 +118,4 @@
 .caja10:hover
 {
   padding: 20%;
-  transition: padding 1s;
 }
