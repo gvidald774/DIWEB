@@ -16,55 +16,99 @@
 
 .caja1 {
   background-color: #C0392B;
+  transition: 1s linear;
+}
+
+.caja1:hover {
   transform: scale(0.8);
 }
 
 .caja2 {
   background-color: #9B59B6;
+  transition: 1s linear;
+}
+
+.caja2:hover {
   transform: rotate(0.7turn);
 }
 
 .caja3 {
   background-color: #2980B9;
+  transition: 1s linear;
+}
+
+.caja3:hover {
   transform: skew(30deg, 20deg);
 }
 
 .caja4 {
   background-color: #3498DB;
+  transition: 1s linear;
+}
+
+.caja4:hover {
   transform: skewX(30deg);
 }
 
 .caja5 {
   background-color: #17A589;
+  transition: 1s linear;
+}
+
+.caja5:hover {
   transform: skewY(30deg);
 }
 
 .caja6 {
   background-color: #F1C40F;
+  transition: 1s linear;
+}
+
+.caja6:hover {
   transform: translate(40px, 30px);
 }
 
 .caja7 {
   background-color: #E67E22;
+  transition: 1s linear;
+}
+
+.caja7:hover {
   transform: translateX(10px);
 }
 
 .caja8 {
   background-color: #95A5A6;
+  transition: 1s linear;
+}
+
+.caja8:hover {
   transform: translateY(10px);
 }
 
 .caja9 {
   background-color: #2C3E50;
-  transform: perspective(50cm) rotateX(50deg)
+  transition: 1s linear;
+}
+
+.caja9:hover {
+  transform: perspective(500cm) rotateX(50deg);
 }
 
 .caja10 {
   background-color: #808080;
-  transform: perspective(22cm) rotateX(50deg)
+  transition: 1s linear;
+}
+
+.caja10:hover {
+  transform: perspective(0.5cm) rotateX(50deg);
 }
 
 .caja11 {
   background-color: #000000;
+  transition: 1s linear;
+}
+
+.caja11:hover {
   transform: matrix(1,-0.3,0.1,1,0,1);
 }

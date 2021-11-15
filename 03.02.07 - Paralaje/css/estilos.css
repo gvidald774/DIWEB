@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.paralaje {
+    background-image: url("../img/paralaje.jpg");
+    height: 70%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#arriba {
+    background-image: url("../img/paralaje.jpg");
+}
+
+#abajo {
+    background-image: url("../img/paralaje-2.jpg");
+}
+
+#img1 {
+    position: absolute;
+    left: 50px;
+    top: 150px;
+    width: 100px;
+    z-index: 1;
+}
+
+#img2 {
+    width: 250px;
+    position: absolute;
+    right: 50px;
+    bottom: -250px;
+    z-index: 2;
+}
+
+main {
+    background-color: wheat;
+    overflow: auto;
+}
+
+p {
+    font-family: cursive;
+    font-size: 28px;
+}
