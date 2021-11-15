@@ -15,45 +15,56 @@
   }
 
 .caja1 {
+  background-color: #C0392B;
   transform: scale(0.8);
 }
 
 .caja2 {
+  background-color: #9B59B6;
   transform: rotate(0.7turn);
 }
 
 .caja3 {
+  background-color: #2980B9;
   transform: skew(30deg, 20deg);
 }
 
 .caja4 {
+  background-color: #3498DB;
   transform: skewX(30deg);
 }
 
 .caja5 {
+  background-color: #17A589;
   transform: skewY(30deg);
 }
 
 .caja6 {
+  background-color: #F1C40F;
   transform: translate(40px, 30px);
 }
 
 .caja7 {
+  background-color: #E67E22;
   transform: translateX(10px);
 }
 
 .caja8 {
+  background-color: #95A5A6;
   transform: translateY(10px);
 }
 
 .caja9 {
-  transform: perspective(50cm) rotate(0.1turn)
+  background-color: #2C3E50;
+  transform: perspective(50cm) rotateX(50deg)
 }
 
 .caja10 {
-  transform: perspective(0) rotate(0.1turn)
+  background-color: #808080;
+  transform: perspective(22cm) rotateX(50deg)
 }
 
 .caja11 {
-  transform: matrix(1,-0.2,0,1,0,0);
+  background-color: #000000;
+  transform: matrix(1,-0.3,0.1,1,0,1);
 }
