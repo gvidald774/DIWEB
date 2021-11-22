@@ -1,0 +1,36 @@
+// Mixins
+
+@mixin colorear-texto-fondo() {
+    color: $color-texto;
+    background-color: $color-fondo;
+}
+
+@mixin colorear-texto-fondo-hover() {
+    color: $color-hovertexto;
+    background-color: $color-hoverfondo;
+}
+
+// Esta no era necesaria pero la he puesto para una sola instancia.
+@mixin colorear-texto-fondo-header() {
+    color: #444;
+    background-color: #eee;
+}
+
+@mixin box-sizing-tal($box-sizing-param) {
+    -moz-box-sizing: $box-sizing-param;
+    -webkit-box-sizing: $box-sizing-param;
+    box-sizing: $box-sizing-param;
+}
+
+@mixin transicion($property, $duration, $timing : linear) {
+    -moz-transition: $property $duration $timing;
+    -webkit-transition: $property $duration $timing;
+    transition: $property $duration $timing;
+}
+
+@mixin animacion($name, $duration, $timing : linear)
+{
+    -webkit-animation: $name $duration $timing;
+    -moz-animation: $name $duration $timing;
+    animation: $name $duration $timing;
+}
