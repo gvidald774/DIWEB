@@ -54,11 +54,10 @@ nav {
         display: block;
         text-align: center;
         cursor: pointer;
-    }
-
-    a:hover {
-        @include colorear-texto-fondo-hover();
-        @include animacion(iluminar, 0.4s);
+        &:hover {
+            @include colorear-texto-fondo-hover();
+            @include animacion(iluminar, 0.4s);
+        }
     }
 }
 
@@ -75,7 +74,7 @@ li.categoria {
         @include transicion(padding, 0.4s, ease-out);
     }
 
-    :hover {
+    &:hover {
 
         >a {
             padding: 10px 20px;
