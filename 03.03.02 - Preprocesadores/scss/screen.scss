@@ -1,3 +1,26 @@
 @import "colores";
 @import "mixin";
 @import "menu";
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    padding: 12px 30px;
+    font-size: 1.8em;
+    @include colorear-texto-fondo-header;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #aaa;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer {
+    @include colorear-texto-fondo();
+    @include box-sizing-tal(border-box);
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    padding: 5px;
+}
