@@ -89,3 +89,36 @@ body
     float: right;
     margin: 0 0 10px 10px;
 }
+
+/* Posicionamiento de los elementos */
+
+@media screen and (max-width: 1000px)
+{
+    #extras
+    {
+        float: left;
+        width: 550px;
+        margin: 0 0 0 225px; /* Un poco trampeado pero ok */
+    }
+}
+
+@media screen and (max-width: 480px)
+{
+    #content
+    {
+        clear: both;
+        width: 100%;
+        margin: 0;
+    }
+    #nav {
+        clear: both;
+        width: 100%;
+    }
+    #extras {
+        width: 100%;
+        margin: 10px 0 0 0;
+    }
+    .feature-image {
+        display: none;
+    }
+}
