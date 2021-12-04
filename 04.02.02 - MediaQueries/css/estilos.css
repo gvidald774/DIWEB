@@ -76,6 +76,43 @@ section.images img {
 
 /* Para el caso de pantalla superior a 576px */
 
+@media screen and (min-width: 576px)
+{
+  article {
+    float:right;
+    width: 22%;
+  }
+
+  .novedades h2 {
+    float: left;
+  }
+
+  main section {
+    width: 50%;
+  }
+
+  section.images {
+    flex: 1;
+  }
+
+  section.images img {
+    width: 50%;
+  }
+}
 
 /* Para el caso de pantalla superior a 992px */
 
+@media screen and (min-width: 992px)
+{
+  section.images img {
+    width: 33%;
+  }
+
+  .hidden {
+    display: flex; 
+  }
+
+  main {
+    flex-direction: row-reverse;
+  }
+}
