@@ -1,0 +1,41 @@
+.verde, .rojo, .azul, .salmon, .morado {
+   box-sizing: border-box;
+   border: 2px solid white;
+   /* margin: 0px;*/
+}
+
+.verde {
+    background-color: green;
+    /*border: 2px outset gray;*/
+}
+
+.cabesa {
+    height: 10vh;
+}
+
+.pie {
+    height: 5vh;
+}
+
+.rojo {
+    background-color: red;
+    /*border: 2px outset gray;*/
+}
+
+.azul {
+    background-color: blue;
+    /*border: 2px inset gray;*/
+    height: 20vh;
+}
+
+.salmon {
+    background-color: salmon;
+    /*border: 2px ridge gray;*/
+    height: 35vh;
+}
+
+.morado {
+    background-color: purple;
+    /*border: 2px solid gray;*/
+    height: 10vh;
+}
