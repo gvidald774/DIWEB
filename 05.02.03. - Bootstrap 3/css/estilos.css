@@ -1,0 +1,85 @@
+.verde, .rojo, .amarillo, .azul, .salmon {
+    box-sizing: border-box;
+    border: 2px solid white;
+    /* margin: 0px;*/
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    line-height: inherit;
+}
+
+.verde {
+    background-color: green;
+    height: 20vh;
+}
+
+.rojo {
+    background-color: red;
+    height: 20vh;
+    font-size: 500%;
+    text-align: left;
+}
+
+.amarillo {
+    background-color: yellow;
+    height: 10vh;
+    font-size: 250%;
+    font-style: italic;
+}
+
+.azul {
+    background-color: cyan;
+    height: 20vh;
+    font-size: 500%;
+}
+
+.salmon {
+    background-color: salmon;
+    height: 10vh;
+    font-size: 250%;
+    font-style: italic;
+}
+
+#tres {
+    height: 20vh;
+    text-align: right;
+}
+
+@media (min-width: 576px)
+{
+    .salmon {
+        background-color: cyan;
+        text-align: left;
+    }
+
+    .azul {
+        background-color: red;
+        text-align: right;
+        height: 30vh;
+    }
+
+    .rojo {
+        height: 30vh;
+    }
+
+    #tres {
+        background-color: green;
+        text-align: center;
+        height: 20vh;
+    }
+}
+
+@media (min-width: 768px)
+{
+    .salmon {
+        background-color: green;
+    }
+    .azul, .rojo, #tres {
+        height: 50vh;
+        text-align: center;
+    }
+
+    #tres {
+        background-color: red;
+    }
+}
