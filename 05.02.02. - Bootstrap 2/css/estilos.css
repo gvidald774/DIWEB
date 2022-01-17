@@ -1,0 +1,39 @@
+.verde, .azul, .gris, .plataforma, .naranja {
+    box-sizing: border-box;
+    border: 2px solid white;
+    /* margin: 0px;*/
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    vertical-align: middle;
+    line-height: inherit;
+ }
+ 
+ .verde {
+     background-color: green;
+     /*border: 2px outset gray;*/
+     height: 5vh;
+ }
+
+ .azul {
+     background-color: darkslateblue;
+     /*border: 2px outset gray;*/
+     height: 15vh;
+ }
+
+ .gris {
+     background-color: gray;
+     height: 15vh;
+ }
+
+ .naranja {
+     background-color: salmon;
+     /*border: 2px ridge gray;*/
+     height: 10vh;
+ }
+ 
+ .plataforma {
+     background-color: cyan;
+     /*border: 2px solid gray;*/
+     height: 5vh;
+ }
